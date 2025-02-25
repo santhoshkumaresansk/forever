@@ -4,8 +4,8 @@ Welcome to Forever — a modern, sleek e-commerce website built with the MERN st
 
 🚀 Live Demo
 
-Check out the live version of the project here:https://santhoshkumaresansk.github.io/
-Forever E-Commerce Website
+Check out the live version of the project here: https://santhoshkumaresansk.github.io/forever/
+
 
 🛠️ Features
 
