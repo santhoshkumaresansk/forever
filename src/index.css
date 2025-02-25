@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* Default state of <hr> */
+*{
+  box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a hr {
+    width: 0; /* Start with 0 width */
+    height: 2px;
+    background-color: black;
+    border: none;
+    transition: width 0.4s ease;
+     /* Smooth transition on width */
+  }
+ 
+
+  
+  /* When the <a> tag has the active class */
+  a.active hr {
+    width: 50%; /* Expand to full width when active */
+  }
+ a.active .p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+.side {
+  transition: transform 0.5s linear; 
+  cursor: pointer;/* Add transition to initial state */
+}
+
+.side:hover {
+  transform: scale(1.1); /* Scale to 110% on hover */
+}
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
